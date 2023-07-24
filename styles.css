@@ -1,0 +1,34 @@
+.simsim { font-size: 15px;};
+.attribution { font-size: 15px; text-align: center; };
+.attribution a { color: hsl(228, 45%, 44%); };
+.mensagem-validacao {
+    display: none;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f7f7f7;
+    color: #333;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  .dismiss-button {
+    position: relative;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+  }
+  
+  .valido {
+    background-color: #c9fdd1;
+    border-color: #4caf50;
+    color: #4caf50;
+  }
+  
+  .invalido {
+    background-color: #ffd1d1;
+    border-color: #f44336;
+    color: #f44336;
+  }
+  .everything {
+  display: block;
+ background-color: white;
+}

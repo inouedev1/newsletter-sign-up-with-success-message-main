@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <script src="script.js"></script>
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+
+
+</head>
+
+<body>
+  <div class="everything" id="everything">
+
+    Stay updated!
+
+    Join 60,000+ product managers receiving monthly updates on:
+
+    Product discovery and building what matters
+    Measuring to ensure updates are a success
+    And much more!
+
+    Email address
+
+    <form>
+      <label for="email">Email address</label>
+      <input type="text" id="email" name="email" placeholder="email@company.com">
+      <button type="button" onclick="validarEmail()">Subscribe to monthly news</button>
+    </form>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io/challenges/newsletter-signup-form-with-success-message-3FC1AZbNrv" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://github.com/inouedev1">Nikollas Inoue</a>.
+    </div>
+  </div>
+  <div id="resultado"></div>
+  <!-- Success message start -->
+  <div id="mensagem-validacao" class="mensagem-validacao">
+  </div>
+</body>
+
+</html>
