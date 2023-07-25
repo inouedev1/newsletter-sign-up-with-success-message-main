@@ -15,31 +15,37 @@
 
 <body>
   <div class="everything" id="everything">
+    <img id="img1" class="img1" src="assets\images\illustration-sign-up-desktop.svg" alt="assets\images\illustration-sign-up-mobile.svg"> 
+  <header >
+    <h1>Stay updated!</h1>
+  </header>  
+  <div id="join">
+    <p>Join 60,000+ product managers receiving monthly updates on:
 
-    Stay updated!
-
-    Join 60,000+ product managers receiving monthly updates on:
-
-    Product discovery and building what matters
-    Measuring to ensure updates are a success
-    And much more!
-
-    Email address
+    </p> 
+  </div>
+    
+  <div class="mark">
+    <p><img src="assets\images\icon-list.svg">  Product discovery and building what matters</p>
+    <p><img src="assets\images\icon-list.svg">  Measuring to ensure updates are a success</p>
+    <p><img src="assets\images\icon-list.svg">  And much more!</p>
+  </div>
 
     <form>
-      <label for="email">Email address</label>
+      <label for="email" ><p id="Email2"><strong>Email address</strong></p></label>
       <input type="text" id="email" name="email" placeholder="email@company.com">
-      <button type="button" onclick="validarEmail()">Subscribe to monthly news</button>
+      <button id="submitbtn" type="button" onclick="validarEmail()">Subscribe to monthly news</button>
     </form>
-    <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io/challenges/newsletter-signup-form-with-success-message-3FC1AZbNrv" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="https://github.com/inouedev1">Nikollas Inoue</a>.
-    </div>
-  </div>
-  <div id="resultado"></div>
-  <!-- Success message start -->
-  <div id="mensagem-validacao" class="mensagem-validacao">
-  </div>
-</body>
+  
+  
+</div>
 
-</html>
+
+<div id="resultado"></div>
+<!-- Success message start -->
+<div id="mensagem-validacao" class="mensagem-validacao">
+</div>
+<img id="img2" class="img2" src="assets\images\icon-success.svg">
+</body>  
+
+</html>    

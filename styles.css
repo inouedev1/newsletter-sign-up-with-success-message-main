@@ -1,4 +1,9 @@
-.simsim { font-size: 15px;};
+body {
+  background-color: rgb(46, 46, 90);
+  color: black;
+}
+
+
 .attribution { font-size: 15px; text-align: center; };
 .attribution a { color: hsl(228, 45%, 44%); };
 .mensagem-validacao {
@@ -17,11 +22,6 @@
     cursor: pointer;
   }
   
-  .valido {
-    background-color: #c9fdd1;
-    border-color: #4caf50;
-    color: #4caf50;
-  }
   
   .invalido {
     background-color: #ffd1d1;
@@ -29,6 +29,87 @@
     color: #f44336;
   }
   .everything {
-  display: block;
- background-color: white;
+  font-size: 15px;
+  border-radius: 15px;
+  display: flexbox;
+  background-color: white;
+  align-items: center;
+  max-width: 1440px;
+  width: 75%;
+  max-height: 1000px;
+  padding:  8px 0px 18px 18px;
+  margin: auto;
+}
+.img1{
+ max-width: 270px;
+ max-height: 270px;
+ width: 100%;
+ float: right;
+ padding:18px 8px 18px 18px;
+
+  }
+
+p {
+  font-size: 16px;
+}
+
+#email{
+  border-radius: 10px;
+    height: 20px;
+    width: 250px;
+    border-color: black;
+    font-size: 16px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+#submitbtn{
+  background-color: rgb(46, 46, 90);
+    color: white;
+    text-decoration: none;
+    border-style: dotted;
+    border-radius: 10px;
+    width: 250px;
+    height: 30px;
+    border-style: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#Email2{
+  font-size: 13px;
+  font-weight: 100;
+}
+
+#resultado{
+  margin-top: -110px;
+  margin-left: 300px;
+  font-size: 13px;
+}
+
+#mensagem-validacao{
+  display: none;
+  background-color: white;
+  color: rgb(46, 46, 90);
+  margin-top: 50px;
+  margin-left: 250px;
+  height: 250px;
+  width: 350px;
+  border-radius: 5px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.dismiss-button{
+  background-color: rgb(46, 46, 90);
+  color: white;
+  margin-top: 125px;
+  margin-bottom: 100px;
+  padding: 10px 10px 10px 10px;
+}
+#img2{
+  margin-top: -285px;
+  margin-left: 255px;
+  display:none;
+  width: 5%;
 }
