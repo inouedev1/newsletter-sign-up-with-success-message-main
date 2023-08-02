@@ -15,33 +15,36 @@
 
 <body>
   <div class="everything" id="everything">
-    <img id="img1" class="img1" src="assets\images\illustration-sign-up-desktop.svg" alt="assets\images\illustration-sign-up-mobile.svg"> 
-  <header >
-    <h1>Stay updated!</h1>
-  </header>  
-  <div id="join">
-    <p>Join 60,000+ product managers receiving monthly updates on:
-
-    </p> 
+    <div >
+      <h1>Stay updated!</h1>  
+      <div id="join">
+        <p>Join 60,000+ product managers receiving monthly<br> updates on:
+          
+        </p> 
+      </div>
+      
+      <div class="mark">
+        <p><img src="assets\images\icon-list.svg">  Product discovery and building what matters</p>
+        <p><img src="assets\images\icon-list.svg">  Measuring to ensure updates are a success</p>
+        <p><img src="assets\images\icon-list.svg">  And much more!</p>
+        <div>
+          <form>
+            <label for="email" ><p id="Email2"><strong>Email address</strong></p></label>
+            <input type="text" id="email" name="email" placeholder="email@company.com">
+            <br>
+            <button id="submitbtn" type="button" onclick="validarEmail()">Subscribe to monthly news</button>
+          </form>
+        </div>
+        <img id="img1" src="assets\images\illustration-sign-up-desktop.svg" alt="assets\images\illustration-sign-up-mobile.svg"> 
+        
+        <div id="resultado"></div>
+    </div>
   </div>
-    
-  <div class="mark">
-    <p><img src="assets\images\icon-list.svg">  Product discovery and building what matters</p>
-    <p><img src="assets\images\icon-list.svg">  Measuring to ensure updates are a success</p>
-    <p><img src="assets\images\icon-list.svg">  And much more!</p>
-  </div>
-
-    <form>
-      <label for="email" ><p id="Email2"><strong>Email address</strong></p></label>
-      <input type="text" id="email" name="email" placeholder="email@company.com">
-      <button id="submitbtn" type="button" onclick="validarEmail()">Subscribe to monthly news</button>
-    </form>
   
   
 </div>
 
 
-<div id="resultado"></div>
 <!-- Success message start -->
 <div id="mensagem-validacao" class="mensagem-validacao">
 </div>

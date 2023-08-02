@@ -1,6 +1,8 @@
+
 body {
   background-color: rgb(46, 46, 90);
   color: black;
+  width: 1000px;
 }
 
 
@@ -31,22 +33,19 @@ body {
   .everything {
   font-size: 15px;
   border-radius: 15px;
-  display: flexbox;
+  display: block;
   background-color: white;
   align-items: center;
-  max-width: 1440px;
-  width: 75%;
-  max-height: 1000px;
+  width: 650px;
   padding:  8px 0px 18px 18px;
   margin: auto;
+  height: 375px;
 }
-.img1{
- max-width: 270px;
- max-height: 270px;
- width: 100%;
- float: right;
- padding:18px 8px 18px 18px;
-
+#img1{
+  margin-left: 350px;
+  margin-top: -320px;
+  width: 275px;  
+  height: 350px;
   }
 
 p {
@@ -82,9 +81,8 @@ p {
 }
 
 #resultado{
-  margin-top: -110px;
-  margin-left: 300px;
-  font-size: 13px;
+  margin-top: -125px;
+  margin-left: 130px;
 }
 
 #mensagem-validacao{
