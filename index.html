@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,21 +7,18 @@
   <script src="script.js"></script>
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="stylesheet" type="text/css" href="styles.css" />
-  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+  <title>Frontend Mentor | Newsletter By Inoue</title>
 
 
 </head>
-
 <body>
+  <img id="imgmobile" src="assets\images\illustration-sign-up-mobile.svg">
   <div class="everything" id="everything">
-    <div >
+    
       <h1>Stay updated!</h1>  
       <div id="join">
-        <p>Join 60,000+ product managers receiving monthly<br> updates on:
-          
-        </p> 
+        <p>Join 60,000+ product managers receiving monthly<br> updates on:</p> 
       </div>
-      
       <div class="mark">
         <p><img src="assets\images\icon-list.svg">  Product discovery and building what matters</p>
         <p><img src="assets\images\icon-list.svg">  Measuring to ensure updates are a success</p>
@@ -30,25 +26,20 @@
         <div>
           <form>
             <label for="email" ><p id="Email2"><strong>Email address</strong></p></label>
-            <input type="text" id="email" name="email" placeholder="email@company.com">
+            <div id="resultado"></div>
+            <input id="email" placeholder="email@company.com">
             <br>
             <button id="submitbtn" type="button" onclick="validarEmail()">Subscribe to monthly news</button>
+            
           </form>
         </div>
-        <img id="img1" src="assets\images\illustration-sign-up-desktop.svg" alt="assets\images\illustration-sign-up-mobile.svg"> 
+        <img id="img1" src="assets\images\illustration-sign-up-desktop.svg" > 
         
-        <div id="resultado"></div>
     </div>
   </div>
-  
-  
-</div>
-
-
-<!-- Success message start -->
-<div id="mensagem-validacao" class="mensagem-validacao">
-</div>
+<div id="mensagem-validacao" class="mensagem-validacao"></div>
 <img id="img2" class="img2" src="assets\images\icon-success.svg">
-</body>  
+</div>
 
+</body>  
 </html>    
